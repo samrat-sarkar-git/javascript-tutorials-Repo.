@@ -1,29 +1,22 @@
-"use strict"; // treat all JS code as newer version
+"new strict"; //treat all js code as newer version of js
 
-// alert( 3 + 3) // we are using nodejs, not browser
+// alert("hello") -- we are using node js and not browser
 
-console.log(3 
-    +
-     3) // code readability should be high
+console.log(4 + 9);
 
-console.log("Hitesh")
-
-
-let name = "hitesh"
+let name = "Samrat"
 let age = 18
 let isLoggedIn = false
-let state;
-
-// number => 2 to power 53
-// bigint
-// string => ""
-// boolean => true/false
-// null => standalone value
-// undefined => 
-// symbol => unique
 
 
-// object
+//number  --> 2to the power 53
+//bigint
+//string --> " "
+//boolean --> true or false
+//null --> stabd alone value used to depict any content of variable is empty but ot undefined
+//undefined --> not defined while declaration , interpreter automatically defines with undefined 
+//symbol --> unique
 
-console.log(typeof undefined); // undefined
-console.log(typeof null); // object
+//null is a object type but undefined is undefined type
+
+
