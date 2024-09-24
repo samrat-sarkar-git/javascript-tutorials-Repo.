@@ -4,7 +4,9 @@ const accountId=2345232
 let accountEmail = "samratsarkar@gmail.com"
 var accountPassword="1234565"
 accountCity="Kolkata" //should not be used but variables can be defined without using any keyword of let or var
-let accountState
+
+
+let accountState //variable is declared but if the variable is not initialised with certain value it will be automatically filled with value undefined
 
 // accountId=4532 -- not allowed when defined with const keyword
 
