@@ -1,4 +1,4 @@
-"new strict"; //treat all js code as newer version of js
+//"new strict"; //treat all js code as newer version of js
 
 // alert("hello") -- we are using node js and not browser
 
