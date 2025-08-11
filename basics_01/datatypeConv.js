@@ -1,10 +1,10 @@
 let score = "Samrat"
 
-console.log(typeof score);
-console.log(typeof(score));
+// console.log(typeof score);
+// console.log(typeof(score));
 
 let valueinScore = Number(score)
-console.log(valueinScore);
+// console.log(valueinScore);
 
 
 //NaN --> Not a number
@@ -15,3 +15,15 @@ console.log(valueinScore);
 //null --> 0
 //undefined --> NaN
 //"Samrat" --> NaN
+
+// "" => converted in false
+// "Samrat" => converted into true
+
+//string convertion 
+
+let num = 10
+// console.log(num);
+let convNum = String(num)
+console.log(convNum)
+console.log(typeof convNum)
+
